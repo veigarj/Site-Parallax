@@ -27,14 +27,29 @@ h3 {
 
 /* Efeito Parallax */
 .caixa1,
-.caixa2 {
+.caixa2,
+.caixa3,
+.caixa4 {
   border: 1px solid red;
   height: 100%; /* altura */
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover; /* imagem cobre toda a area */
+  background-position: center; /* deixa a imagem sempre centralizada */
+  background-attachment: fixed; /* torna a imagem fixa ao fundo */
 }
 
 .caixa1 {
-  background-image: url(/imagens/imagem1.jpg);
+  background-image: url("/imagens/imagem1.jpg");
 }
 
 .caixa2 {
+  background-image: url("/imagens/imagem2.jpg");
+}
+
+.caixa3 {
+  background-image: url("/imagens/imagem3.jpg");
+}
+.caixa4 {
+  background-image: url("/imagens/imagem4.jpg");
 }
