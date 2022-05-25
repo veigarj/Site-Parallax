@@ -1,3 +1,4 @@
+/* config padrao */
 * {
   margin: 0;
   padding: 0;
@@ -22,4 +23,18 @@ h3 {
   text-transform: uppercase;
   color: #111;
   text-decoration: center;
+}
+
+/* Efeito Parallax */
+.caixa1,
+.caixa2 {
+  border: 1px solid red;
+  height: 100%; /* altura */
+}
+
+.caixa1 {
+  background-image: url(/imagens/imagem1.jpg);
+}
+
+.caixa2 {
 }
