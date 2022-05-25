@@ -52,6 +52,8 @@ h3 {
   background-image: url("/imagens/imagem4.jpg");
 }
 
+/* centralizar conteudo */
+
 .conteudo-titulo {
   position: absolute;
   left: 0;
